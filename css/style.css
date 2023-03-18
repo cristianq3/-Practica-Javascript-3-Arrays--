@@ -1,6 +1,20 @@
 
 .resaltar {
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     background-color: rgb(189, 141, 30);
     font-size: large;
+    max-width: 600px;
+    height: 21px;
+    border: 1px solid rgb(32, 108, 74);
+    border-radius: 50px;
+    padding: 5px;
+    font-family:monospace;
+    text-align: center;
+
+    
+    
+}
+
+li {
+    padding: 10px;
 }

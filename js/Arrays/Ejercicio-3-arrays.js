@@ -61,16 +61,16 @@ do {
 
       defaut: null;
   }
-} while (contadorRepeticion <= 50);
+} while (contadorRepeticion <= 51);
 
 document.write(
-  `<h1>Cantidad de veces que se en contro la multiplicación:</h1>`
+  `<h1 class="resaltar">Cantidad de veces que se encontró la multiplicación:</h1>`
 );
 document.write(`<ul>`);
 for (i = 1; i < resultados.length; i++) {
   document.write(
-    `<li> La suma <b> ${contadorSumas} </b> se realizó :` +
-      `<b> ${resultados[i]} </b> veces. </li>`
+    `<li> La suma <b class="resaltar">${contadorSumas}</b>se realizó :` +
+      `<b> ${resultados[i]}</b> veces. </li>`
   );
   contadorSumas++;
 }
