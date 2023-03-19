@@ -2,24 +2,14 @@
 
 let texto = prompt("Ingrese su texto");
 
-
-
-function stringCheck (unTexto) {
-
-    if (unTexto === unTexto.toUpperCase()) {
-        document.write (`Son todas <b class="resaltar" > MAYUSCULAS </b>` ) ;
-
-    }
-    else if (unTexto === unTexto.toLowerCase()) {
-
-        document.write (`Son todas <b class="resaltar" > minusuculas </b>` ) ;
-    }
-
-    else {
-        document.write (`Estan <b class="resaltar"> MezClaDaS </b>`);
-    }
-
-
+function stringCheck(unTexto) {
+  if (unTexto === unTexto.toUpperCase()) {
+    document.write(`Son todas <b class="resaltar" > MAYUSCULAS </b>`);
+  } else if (unTexto === unTexto.toLowerCase()) {
+    document.write(`Son todas <b class="resaltar" > minusuculas </b>`);
+  } else {
+    document.write(`Estan <b class="resaltar"> MezClaDaS </b>`);
+  }
 }
 
 stringCheck(texto);
