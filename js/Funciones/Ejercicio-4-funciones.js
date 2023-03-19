@@ -9,7 +9,7 @@ function tablaDel(numeroMultiplicar) {
   for (let i = 1; i <= 10; i++) {
     tabla[i] = numeroMultiplicar * i;
     document.write(
-      `<b> ${numeroMultiplicar} multiplicado por ${i} es igual a <b class="resaltar"> ${tabla[i]} </b> <br>.<br> `
+      `<b> ${numeroMultiplicar} multiplicado por ${i} es igual a <b class="resaltar"> ${tabla[i]} </b> <br>  <br> `
     );
   }
 }
